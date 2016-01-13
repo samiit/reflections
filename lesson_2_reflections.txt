@@ -9,3 +9,6 @@ All changes we make in a file have to be added first to the staging area; otherw
 
 It is the dynamic space where changes get hosted. We may not wish all files/changes from the working directory to be tracked in the first place. Therefore, the staging area gives more efficiency.
 
+
+How can you use the staging area to make sure you have one commit per logical change?
+Using git diff, we know which files have been changed. We can add them to the Staging area and commit them to the Repo one by one. In this way, we can ensure that whatever changes we did in the workspace, we add only one file at a time (hopefully with only one logical change at a time as well!). Using git diff, and git diff --staged, we can ensure one commit per logical change paradigm!
