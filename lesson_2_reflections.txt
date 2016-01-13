@@ -17,3 +17,6 @@ What are some situations when branches would be helpful in keeping your history 
 -> i) Experiment a few unexplored features
 ii) Customize a general purpose code for a specific domain
 iii) Try out some translation work
+
+How do the diagrams help you visualize the branch structure?
+It shows the commit parent structure and the branches they are on. Besides, it helps to identify if there are any unreachable commits. This safeguards against losing required commmits.
