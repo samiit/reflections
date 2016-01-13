@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+-> A new .git folder is created which contains meta-data about the status of the files in the repo. All commits if made would be tracked. Only after initializing a repo, we can add commits to it; make changes and track them!
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area hosts the changes to be tracked in a given working directory before committing them to the repo. It is the dynamic space where changes get hosted. We may not wish all files/changes from the working directory to be tracked in the first place. Therefore, the staging area gives more efficiency.
