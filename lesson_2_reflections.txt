@@ -23,3 +23,7 @@ It shows the commit parent structure and the branches they are on. Besides, it h
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 -> The commonalities are retained, the additions and deletions on the latest commit of either branch also show up in the merged branch. The graph helps track the changes as they were introduced in either branch so that we can track their progress, check the specific changed introduced in each commit on either branch, and get our own modifications done that may be inspired by those commits. An example was to change the color of the coins without understanding the whole code.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+-> Pros: Automatic merging reduces a lot of manually detecting difference.
+Cons: Automatic merging may add things difficult to spot, especially those that lie outside the 3 sections marked with <<<<<<<, ||||||, or ======, >>>>>>>. Same applies to the things that are deleted. In such a case, what helps is the git diff command.
