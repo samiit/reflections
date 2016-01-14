@@ -20,3 +20,6 @@ iii) Try out some translation work
 
 How do the diagrams help you visualize the branch structure?
 It shows the commit parent structure and the branches they are on. Besides, it helps to identify if there are any unreachable commits. This safeguards against losing required commmits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+-> The commonalities are retained, the additions and deletions on the latest commit of either branch also show up in the merged branch. The graph helps track the changes as they were introduced in either branch so that we can track their progress, check the specific changed introduced in each commit on either branch, and get our own modifications done that may be inspired by those commits. An example was to change the color of the coins without understanding the whole code.
