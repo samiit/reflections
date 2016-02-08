@@ -3,3 +3,8 @@ Remote repo helps make our work available to others and to collaborate.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Because you may have made some changes locally that may not be compatible with the current state on the remote repo. So we must adjust our changes such that we can receive the remote repo. So pull must always be done manually and not automatically without the user's aggreement.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork - done on GitHub from another person's remote repo.
+Clone - done onto/within the local machine
+Branch - done on an existing repo to create extra features, etc.
